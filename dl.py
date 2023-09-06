@@ -1,13 +1,13 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import tensorflow 
+import tensorflow as tf
 import keras
 from sklearn.preprocessing import StandardScaler
 
 # Load your pre-trained model
 #modeling
-model=tensorflow.keras.Sequential()
+model=tf.keras.Sequential()
 model.add(keras.layers.Dense(14,input_dim=14,activation='relu'))
 model.add(keras.layers.Dense(100,input_dim=200,activation='relu'))
 model.add(keras.layers.Dense(300,input_dim=400,activation='relu'))
