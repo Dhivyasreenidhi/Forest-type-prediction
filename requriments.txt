@@ -1,4 +1,6 @@
 streamlit
 sklearn
 keras
-#tensorflow
+tensorflow
+numpy
+pandas
