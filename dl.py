@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import tensorflow 
+#import tensorflow 
 import keras
 from sklearn.preprocessing import StandardScaler
 
